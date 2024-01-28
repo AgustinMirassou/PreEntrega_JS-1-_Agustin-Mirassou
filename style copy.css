@@ -1,0 +1,247 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+header{
+    background-color: #1f476da8;
+    padding: 20px;
+    height: 80px;
+    font-size: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header div a{
+    color: white;
+}
+
+nav div a{
+    float: right;
+    font-family: logo;
+    src: url(Fonts/Crackvetica.ttf);
+}
+
+nav div ul{
+    float: right;
+    font-family: barra navegacion;
+    src: url(Fonts/War\ is\ Over.ttf);
+    
+}
+
+nav ul li{
+    display: inline;
+}
+
+nav{
+    background-color: #1f476da8;
+}
+
+nav a:hover{
+    color: rgb(0, 0, 0);
+}
+@font-face {
+    font-family: barra navegacion ;
+    src: url(Fonts/War\ is\ Over.ttf);
+}
+
+@font-face {
+    font-family:logo ;
+    src: url(Fonts/Crackvetica.ttf);
+}
+
+nav a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+
+h2{
+    color: orange;
+    text-align: center;
+    margin: 50px;
+}
+
+.sec{
+    height: 700px;
+    background-color: #000000be;
+}
+
+/* Estilo para Main*/
+main{
+    background-color: #000000be;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    min-height: 100vh;
+}
+
+footer{
+    background-color: black;
+    color: orange;
+    text-align: center;
+    font-size: 30px;
+}
+
+footer a{
+    font-style: italic;
+    color: aqua;
+    text-decoration: none;
+}
+
+
+.hero{
+    background-image: url(../image/runner-7876675_1280.jpg);
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: grid;
+    background-size: cover;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(8,1fr);
+}
+
+.hero_contenido{
+    grid-column: 2/4;
+    grid-row: 2/5;
+    align-self: center;
+    justify-self: center;
+    text-align: center;
+}
+
+
+/* Estilo para Contacto*/
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+}
+
+input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.container01{
+    background-color: rgba(0, 0, 0, 0.745);
+    color: white;
+}
+
+.container01 p{
+    padding: 10px;
+}
+
+.cansado{
+    background-image: url(../image/people-escalera.jpg);
+    height: 400px;
+    width: 80%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin: 20px 0px 20px 0px;
+}
+
+section img{
+    width: 100%;
+    text-align: center;
+    margin: 30px;
+}
+
+h1{
+    color: orange;
+    text-align: center;
+    margin: 50px;
+}
+
+
+main img{
+    width: auto;
+    height: 450px;
+    background-color: #000000be;
+}
+
+main p{
+    text-align: center;
+    color: white;
+    width: 100%;
+    margin: 30px;
+}
+
+
+.main_locales{
+    background-color: #000000be;
+    height: 800px;
+    width: 100%;
+}
+
+.info_remera{
+    display: flex;
+}
+
+h3{
+    text-align: center;
+    padding-top: 50px;
+    
+}
+
+.primer_texto{
+    text-align: center;
+    color: white;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.segundo_texto{
+    text-align: center;
+    color: white;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+main div h1{
+    justify-self: center;
+    align-self: center;
+}
+
+main div p{
+    justify-self: center;
+    align-self: center;
+    text-align: center;
+    display: flex;
+    grid-column: 2/4;
+    grid-row: 2/5;
+}
+
+main div a{
+    color: rgb(61, 0, 61);
+    text-decoration: none;
+}
+
+nav{
+    background-color: #1f476da8;
+}
+
+.cansado{
+    width: auto;
+}
